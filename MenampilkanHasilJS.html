@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!--Berfungsi untuk memberikan informasi kepada web browser bahwa dokumen akan diproses HTML-->
+<html><!--Tag untuk membuat sebuah dokumen HTML-->
+<head><!--Tag untuk membuat informasi tentang dokumen-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" /><!--berfungsi untuk mempermudahan google dalam identifikasi konten dalam website, yang kontennya sesuai dengan standarisasi utf8-->
+<title>Belajar JavaScript</title><!--Tag untuk membuat judul sebuah halaman-->
+
+<script>/*Tag untuk memulai java script atau untuk mengeksekusi java script setelah html dijalankan*/
+window.onload = function()/*Berfungsi untuk mengeksekusian dokumen, gambar, dll dan dilakukan on load setelah html berjalan*/
+{
+   var hasil;/*menginisialisasi variabel hasil*/
+   hasil = 1+3+5+7+9;/*mendeklarasi hasil*/
+   document.getElementById("tempat_hasil").innerHTML=hasil; /*Kode untuk mengoutputkan deklarasi hasil*/
+}
+</script><!--Tag untuk memulai java script atau untuk mengeksekusi java script setelah html dijalankan-->
+
+</head><!--Tag untuk menutup informasi tentang dokumen-->
+ 
+<body><!--Tag untuk membuat tubuh dari sebuah halaman-->
+<h1>Belajar JavaScript</h1><!--Tag berikut untuk membuat heading-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p><!--elemen <p> merupakan tag untuk membuat paragraf yang ditutup dengan tag </p>-->
+<div id="tempat_hasil"><!-- Tag yang digunakan untuk membuat sebuah bagian dalam dokumen-->
+</div>
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->

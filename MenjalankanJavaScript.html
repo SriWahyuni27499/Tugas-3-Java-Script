@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!--Berfungsi untuk memberikan informasi kepada web browser bahwa dokumen akan diproses HTML-->
+<html><!--Tag untuk membuat sebuah dokumen HTML-->
+<head><!--Tag untuk membuat informasi tentang dokumen-->
+<title>Belajar JavaScript di Jti.polije</title><!--Tag untuk membuat judul sebuah halaman-->
+
+<script type="text/javascript">/*Tag untuk memulai java script atau untuk mengeksekusi java script setelah html dijalankan*/
+function tambah_semangat()/*Berfungsi untuk memberikan tindakan atau fungsi untuk value*/
+{
+   var a=document.getElementById("div_semangat");/*Kode var merupakan variabel a yang memilih tag id (yang dituju)*/
+   a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat...!!!</p>";/*Innerhtml berfungsi untuk menambahakan konten, elemen <p> merupakan tag untuk membuat paragraf yang ditutup dengan tag </p>*/
+}
+</script><!--Tag untuk memulai java script atau untuk mengeksekusi java script setelah html dijalankan-->
+
+</head><!--Tag untuk menutup informasi tentang dokumen-->
+
+<body><!--Tag untuk membuat tubuh dari sebuah halaman-->
+<h1>Belajar JavaScript</h1><!--Tag berikut untuk membuat heading-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p> <!--elemen <p> merupakan tag untuk membuat paragraf yang ditutup dengan tag </p>-->
+Klik tombol ini untuk menambahkan kalimat baru:
+
+<button id="tambah"
+onclick="tambah_semangat()">Semangaat..!!</button><!-- Berfungsi untuk membuat button dengan onclick tambah semangat-->
+
+<div id="div_semangat"></div><!-- Tag yang digunakan untuk membuat sebuah bagian dalam dokumen-->
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->
